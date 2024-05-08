@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+  <suite name="testNGFrameworks" verbose="2" parallel="methods" thread-count="4">
+  <test name="Test-cases">
+  
+    <classes>
+      <class name="testNGFrameworks. Annotation"/>    
+       <class name="testNGFrameworks.AnnotationsDemo"/>   
+        <class name="testNGFrameworks.DisablingTestCase"/>    
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

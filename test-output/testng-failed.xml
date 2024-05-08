@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFrameworks]">
+  <test name="multiple_classes(failed)">
+    <classes>
+      <class name="testNGFrameworks.Guru">
+        <methods>
+          <include name="a3_user_info"/>
+          <include name="a2_mailing_info"/>
+          <include name="a1_contact_info"/>
+        </methods>
+      </class> <!-- testNGFrameworks.Guru -->
+    </classes>
+  </test> <!-- multiple_classes(failed) -->
+</suite> <!-- Failed suite [testNGFrameworks] -->

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testNGFrameworks">
+              <span class="suite-name border-failed">testNGFrameworks</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testNGFrameworks">
+                    <span>C:\Users\COMPAQ\eclipse-workspace\JulyWeekendBatch\src\testNGFrameworks\multiclass.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testNGFrameworks">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testNGFrameworks">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testNGFrameworks">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testNGFrameworks">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testNGFrameworks">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testNGFrameworks">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testNGFrameworks" class="hide-methods failed suite-testNGFrameworks"> (hide)</a> <!-- hide-methods failed suite-testNGFrameworks -->
+                      <a href="#" panel-name="suite-testNGFrameworks" class="show-methods failed suite-testNGFrameworks"> (show)</a> <!-- show-methods failed suite-testNGFrameworks -->
+                    </span>
+                    <div class="method-list-content failed suite-testNGFrameworks">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.Guru" hash-for-method="a1_contact_info">a1_contact_info</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.Guru" hash-for-method="a2_mailing_info">a2_mailing_info</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.Guru" hash-for-method="a3_user_info">a3_user_info</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testNGFrameworks -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testNGFrameworks" class="hide-methods passed suite-testNGFrameworks"> (hide)</a> <!-- hide-methods passed suite-testNGFrameworks -->
+                      <a href="#" panel-name="suite-testNGFrameworks" class="show-methods passed suite-testNGFrameworks"> (show)</a> <!-- show-methods passed suite-testNGFrameworks -->
+                    </span>
+                    <div class="method-list-content passed suite-testNGFrameworks">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.SwagLabs" hash-for-method="a1_PageLoded">a1_PageLoded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.SwagLabs" hash-for-method="a2_LoginPage">a2_LoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.SwagLabs" hash-for-method="a3_AddToCart">a3_AddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.SwagLabs" hash-for-method="a4_PrintText">a4_PrintText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNGFrameworks" title="testNGFrameworks.SwagLabs" hash-for-method="a5_LogOut">a5_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testNGFrameworks -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testNGFrameworks" class="panel testNGFrameworks">
+          <div class="suite-testNGFrameworks-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGFrameworks.Guru</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a1_contact_info">
+                  </a> <!-- a1_contact_info -->
+                  <span class="method-name">a1_contact_info</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=121.0.6167.185)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-3DKGOGQ&apos;, ip: &apos;192.168.23.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04a8ab4395cc12ea440f3ad52f2a3280, get {url=https://demo.guru99.com/test/newtours/register.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\COMPAQ\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61773/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04a8ab4395cc12ea440f3ad52f2a3280
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+	at testNGFrameworks.Guru.a1_contact_info(Guru.java:30)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a2_mailing_info">
+                  </a> <!-- a2_mailing_info -->
+                  <span class="method-name">a2_mailing_info</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;address1&apos;]&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-3DKGOGQ&apos;, ip: &apos;192.168.23.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04a8ab4395cc12ea440f3ad52f2a3280, findElement {using=name, value=address1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\COMPAQ\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61773/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04a8ab4395cc12ea440f3ad52f2a3280
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at testNGFrameworks.Guru.a2_mailing_info(Guru.java:44)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a3_user_info">
+                  </a> <!-- a3_user_info -->
+                  <span class="method-name">a3_user_info</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-3DKGOGQ&apos;, ip: &apos;192.168.23.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04a8ab4395cc12ea440f3ad52f2a3280, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\COMPAQ\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61773/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04a8ab4395cc12ea440f3ad52f2a3280
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at testNGFrameworks.Guru.a3_user_info(Guru.java:59)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNGFrameworks-class-failed -->
+          <div class="suite-testNGFrameworks-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGFrameworks.SwagLabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a1_PageLoded">
+                  </a> <!-- a1_PageLoded -->
+                  <span class="method-name">a1_PageLoded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a2_LoginPage">
+                  </a> <!-- a2_LoginPage -->
+                  <span class="method-name">a2_LoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a3_AddToCart">
+                  </a> <!-- a3_AddToCart -->
+                  <span class="method-name">a3_AddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a4_PrintText">
+                  </a> <!-- a4_PrintText -->
+                  <span class="method-name">a4_PrintText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a5_LogOut">
+                  </a> <!-- a5_LogOut -->
+                  <span class="method-name">a5_LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNGFrameworks-class-passed -->
+        </div> <!-- panel testNGFrameworks -->
+        <div panel-name="test-xml-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\COMPAQ\eclipse-workspace\JulyWeekendBatch\src\testNGFrameworks\multiclass.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testNGFrameworks&quot;&gt;
+  &lt;test name=&quot;multiple_classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNGFrameworks.Guru&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- multiple_classes --&gt;
+  &lt;test name=&quot;regsession&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNGFrameworks.SwagLabs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- regsession --&gt;
+&lt;/suite&gt; &lt;!-- testNGFrameworks --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testNGFrameworks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">multiple_classes (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">regsession (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testNGFrameworks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testNGFrameworks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testNGFrameworks');
+function tableData_testNGFrameworks() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'a1_contact_info')
+data.setCell(0, 2, 'testNGFrameworks.Guru')
+data.setCell(0, 3, 20880);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'a1_PageLoded')
+data.setCell(1, 2, 'testNGFrameworks.SwagLabs')
+data.setCell(1, 3, 20854);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'a5_LogOut')
+data.setCell(2, 2, 'testNGFrameworks.SwagLabs')
+data.setCell(2, 3, 17688);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'a3_AddToCart')
+data.setCell(3, 2, 'testNGFrameworks.SwagLabs')
+data.setCell(3, 3, 7583);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'a2_LoginPage')
+data.setCell(4, 2, 'testNGFrameworks.SwagLabs')
+data.setCell(4, 3, 1908);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'a2_mailing_info')
+data.setCell(5, 2, 'testNGFrameworks.Guru')
+data.setCell(5, 3, 282);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'a4_PrintText')
+data.setCell(6, 2, 'testNGFrameworks.SwagLabs')
+data.setCell(6, 3, 77);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'a3_user_info')
+data.setCell(7, 2, 'testNGFrameworks.Guru')
+data.setCell(7, 3, 54);
+window.suiteTableData['testNGFrameworks']= { tableData: data, tableDiv: 'times-div-testNGFrameworks'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testNGFrameworks">
+              </div> <!-- times-div-testNGFrameworks -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testNGFrameworks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">a2_mailing_info</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">sucessfully completed  contact_info and started mailing_info</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">a3_user_info</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">sucessfully completed mailing_info and starteduser_info</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testNGFrameworks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGFrameworks.Guru</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a1_contact_info</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a2_mailing_info</span>
+                <span class="method-start">21146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a3_user_info</span>
+                <span class="method-start">21446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGFrameworks.SwagLabs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">a1_PageLoded</span>
+                <span class="method-start">21687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">a2_LoginPage</span>
+                <span class="method-start">42574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">a3_AddToCart</span>
+                <span class="method-start">44501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">a4_PrintText</span>
+                <span class="method-start">52093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">a5_LogOut</span>
+                <span class="method-start">52180 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
