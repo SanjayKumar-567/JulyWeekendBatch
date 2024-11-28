@@ -4,9 +4,9 @@ import java.io.FileInputStream;
 
 public class ReadExcel {
 
-	/*public static void main(String[] args) throws Throwable {
+	public static void main(String[] args) throws Throwable {
 
-		// TODO Auto-generated method stub
+	// TODO Auto-generated method stub
 
 		FileInputStream path=new FileInputStream("./Data/book2.xlsx");
 
@@ -34,7 +34,7 @@ public class ReadExcel {
 
 		}
 
-	}*/
+	}
 
 
 }

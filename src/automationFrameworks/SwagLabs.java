@@ -21,16 +21,7 @@ import com.google.common.io.Files;
 
 public class SwagLabs {
 	public static void main(String[] args) throws IOException {
-
-	
-	 
-
-				
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Eclipse\\eclipse-jee-oxygen-3a-win32-x86_64\\chromedriver_win32\\chromedriver.exe");//driver type ,driver location
-	ChromeOptions co= new ChromeOptions();
-	co.addArguments("--remote-allow-origins=* ");
-	WebDriver driver = new ChromeDriver(co) ;
+	WebDriver driver = new ChromeDriver() ;
 	driver.get("https://www.saucedemo.com/");     
 	driver.manage().window().maximize();
 	//driver.manage().timeouts().implicitlyWait(2.TimeUnit)

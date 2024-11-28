@@ -9,11 +9,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Fileupload {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\eclipse-jee-oxygen-3a-win32-x86_64\\chromedriver_win32\\chromedriver.exe");
 		
-		ChromeOptions co= new ChromeOptions();
-		co.addArguments("--remote-allow-origins=*");
-		WebDriver driver = new ChromeDriver(co) ;
+		WebDriver driver = new ChromeDriver() ;
 		
 driver.get("https://www.naukri.com/registration/createAccount?othersrcp=23531&wExp=N&utm_source=google&utm_medium=cpc&utm_campaign=Brand&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8n6lcxNTVvfRqEd28gmMtwAHVc5elQbQJE7eP_LlmvCLR82kgGsmXIaAulBEALw_wcB&gclsrc=aw.ds");
 		driver.manage().window().maximize();

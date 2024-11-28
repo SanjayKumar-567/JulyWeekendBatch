@@ -24,10 +24,16 @@ public class Getmethod {
 		
 		String loginpageURL=driver.getCurrentUrl();
 		System.out.println(loginpageURL);
+		
+		
 		String loginpageHeader= driver.findElement(By.xpath("//h3[contains(text(),'Log')]")).getText();
 		System.out.println(loginpageHeader);
+		
+		
 		String ForgotLink=driver.findElement(By.xpath("//a[contains(text(),'Forgot')]")).getText();
 		System.out.println(ForgotLink);
+		
+		
 		String SingInButtonTagname=driver.findElement(By.name("submit")).getTagName();
 		System.out.println(SingInButtonTagname);
 		

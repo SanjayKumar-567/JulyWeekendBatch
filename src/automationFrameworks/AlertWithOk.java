@@ -13,10 +13,9 @@ public class AlertWithOk {
 		System.setProperty("webdriver.chrome.driver","C:\\Eclipse\\eclipse-jee-oxygen-3a-win32-x86_64\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions co= new ChromeOptions();
 		co.addArguments("--remote-allow-origins=*");
-	WebDriver driver = new ChromeDriver(co) ;
+	    WebDriver driver = new ChromeDriver(co) ;
 		driver.manage().window().maximize();
 		driver.get("https://demo.automationtesting.in/Alerts.html");    
-		//driver.manage().window().maximize();
 
 
 		driver.findElement(By.xpath("(//a[contains(text(),'Alert with ')])[1]")).click();
